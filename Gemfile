@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-# Implement Dotevn 
+# Implement Dotevn
 gem 'dotenv-rails', :groups => [:development, :test]
 
 
@@ -50,3 +50,5 @@ group :development do
 end
 
 gem 'slack-ruby-bot'
+gem 'awesome_print'
+gem 'table_print'
